@@ -81,7 +81,7 @@ def spy_chat(spy_name,spy_age,spy_rating):  #start_chat function
             no_of_frnd = add_friend()
             print "\nyou have " + str(no_of_frnd) + " friends"
             for k in friends:
-                print str(friend_no)+"."+k['name']
+                print str(friend_no)+"."+k.name
                 friend_no=friend_no+1
         elif choice == 3:
             send_message()
